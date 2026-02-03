@@ -1,18 +1,29 @@
 /* Place CSS styles here */
+
+head{
+    
+}
+
+
 body {
- background-color: #4c4c7a;
- color: #faebd7;
+ background-color: #f8cbcb;
+ color: #44021d;
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-size: 16px;
+ padding-left: 20px;
+ padding-right: 20px;
 
 }
 
 h1,h2,h3{
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+ font-family: "Delius Swash Caps", cursive; 
 }
-
+h1{
+    background-color: #faebd7;
+    border:#faebd7, 20px;
+}
 img{
-
+text-align: center;
 }
 p{
 

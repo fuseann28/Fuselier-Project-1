@@ -34,22 +34,39 @@ h2{
 }
 
 h3{
+    text-align: center;
 
 
 }
-
+.item-i{
+   display: flex;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
 .ingerdiants{
+    flex: 1;
     border: #cbe2f8, solid;
     background-color: #cbe2f8;
     border-radius: 20px;
-    align-items: center;
-    max-width: 750px;
+    text-align: center;
+    list-style-position: inside;
+    max-width: 400px;
     gap: 20px;
+    padding: 10px ;
+    line-height: 1.6;
 }
-.ingpic{
-    max-width: 30px;
-    height: auto;
+.ingerdiants li{
+    margin-bottom: 8px;
 }
+.ing img{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 h4{
     
 

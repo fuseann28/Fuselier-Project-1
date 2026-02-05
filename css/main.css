@@ -6,25 +6,64 @@ head{
 
 
 body {
- background-color: #f8cbcb;
- color: #44021d;
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-size: 16px;
- padding-left: 20px;
- padding-right: 20px;
+    color: #44021d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #f8cbcb;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
-h1,h2,h3{
- font-family: "Delius Swash Caps", cursive; 
-}
+
 h1{
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 32px;
     background-color: #faebd7;
-    border:#faebd7, 20px;
+    border:#faebd7, solid, 20px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+
 }
-img{
-text-align: center;
+
+h2{
+    text-align: center;
+    font-size: 32px;
+
 }
+
+h3{
+
+
+}
+
+.ingerdiants{
+    border: #cbe2f8, solid;
+    background-color: #cbe2f8;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 750px;
+    gap: 20px;
+}
+.ingpic{
+    max-width: 30px;
+    height: auto;
+}
+h4{
+    
+
+}
+.top-pic{
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../img/topcupcake.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
 p{
 
 

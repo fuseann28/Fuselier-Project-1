@@ -98,14 +98,16 @@ p {
 }
 
 /* link */
-.bottom-link {
-    text-align: center;
-    margin-top: 10px;
+.bottom-link a {
+    display: block;        
+    margin: 0 auto;       
     padding-bottom: 40px;
     font-family: "Poppins", Arial, sans-serif;
     font-size: 18px;
     color: #44021d;
+    text-align: center;   
 }
+
 
 /* footer logo */
 .bottom-logo img {

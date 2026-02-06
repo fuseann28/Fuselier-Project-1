@@ -1,149 +1,118 @@
-/* Place CSS styles here */
-
-head{
-    
-}
-
 
 body {
+    margin: 0;
+    padding: 0;
     color: #44021d;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    background-color: #f8cbcb;
-    padding-left: 20px;
-    padding-right: 20px;
+    line-height: 1.7;
     background: linear-gradient(135deg, #d7ffcc, #ff5d8f);
-
-
-
 }
 
- img{
-   
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+}
 
-}
-.bottom-logo img{
-    width: 200px;
-    height: 200px;
-    display: block; 
-    clear: both;
-   margin-top: 40px ;
-}
-h1{
+/* headers */
+h1 {
     font-family: "Delius Swash Caps", cursive;
     font-size: 64px;
-    width: 100%;
     text-align: center;
-    box-sizing: border-box;
     text-shadow: 4px 4px 6px #edbaba;
-
+    margin: 0;
 }
 
-h2{
+h2 {
     text-align: center;
-    border:#faebd7, solid,10px;
     background-color: #faebd7;
+    border: 3px solid #faebd7;
     border-radius: 8px;
-    
-
+    padding: 10px;
+    margin: 20px auto;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 32px;
-
-}
-.item-i{
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-    justify-content: center;
-}
-.ingerdiants{
-    flex: 1;
-    border: #cbe2f8, solid;
-    background-color: #cbe2f8;
-    border-radius: 20px;
+    font-family: "Poppins", "Arial", sans-serif;
     text-align: center;
-    max-width: 400px;
-    gap: 20px;
-    padding: 10px ;
-    line-height: 1.6;
+    font-size: 32px; 
 }
-.ingerdiants li{
-    margin-bottom: 8px;
-    text-align: center;
-    list-style-position: inside;
-}
-.ing img{
-    display: flex;
-    width: 400px;
-    height: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
-.item-ii{
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-    justify-content: center;
-}
-.steps{
-    flex: 1;
-    border: #cbe2f8, solid;
-    background-color: #cbe2f8;
-    border-radius: 20px;
-    max-width: 600px;
-    gap: 20px;
-    padding: 10px ;
-    padding-right: 10px;
-    line-height: 1.6; 
-}
-.steps li{
-    margin-bottom: 8px;
-    text-align: center;
-    list-style-position: inside;
-}
-.mix img{
-    display: block;
-    width: 500px;
-    height: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-}
-.top-pic{
-
-    padding-top: 200px;
-    padding-bottom: 200px;
+  
+/* heading */
+.top-pic {
+    min-height: 500px;
     background-image: url(../img/topcupcake.jpg);
     background-size: cover;
-    background-position: center;
-
-}
-
-p{
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-
-a{
-
-
-}
-
-a:focus{
-
-
-}
-
-
-.tt-row{
+    background-position: center top;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* group */
+.item-i,.item-ii {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+/* reciepe crad */
+.ingerdiants,.steps {
+    flex: 1;
+    max-width: 500px;
+    background-color: #cbe2f8;
+    border: 3px solid #cbe2f8;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* lists */
+.ingerdiants li,
+.steps li {
+    margin-bottom: 12px;
+}
+
+/* right side images */
+.ing img,
+.mix img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* paragraph */
+p {
+    text-align: center;
+    padding: 0 200px;
+}
+
+/* link */
+.bottom-link {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 18px;
+    color: #44021d;
+}
+
+/* footer logo */
+.bottom-logo img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
 

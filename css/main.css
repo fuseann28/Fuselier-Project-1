@@ -108,6 +108,9 @@ p {
     text-align: center;   
 }
 
+.bottom-link a:hover {
+    color: #d7ffcc; 
+}
 
 /* footer logo */
 .bottom-logo img {
@@ -116,6 +119,62 @@ p {
     text-align: center;
     padding: 40px 0;
 }
+/* button */
+#theme-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+    background: linear-gradient(135deg, #8f002b, #5f0049);
+    color: #f5e6f0;
+}
+
+/* headers */
+.dark-mode h1 {
+    text-shadow: 4px 4px 6px #3a1f2e;
+}
+
+.dark-mode h2 {
+    background-color:#4a3b52;
+    border-color:#4a3b52;
+    color:#f5e6f0;
+}
+
+.dark-mode h3 {
+    color:#f5e6f0;
+}
+
+/* recipe cards */
+.dark-mode .ingerdiants,
+.dark-mode .steps {
+    background-color:#4a3b52;
+    border-color:#4a3b52;
+    color:#f5e6f0;
+}
+
+/* lists */
+.dark-mode .ingerdiants li,
+.dark-mode .steps li {
+    color:#f5e6f0;
+}
+
+/* paragraph text */
+.dark-mode p {
+    color:#f5e6f0;
+}
+
+/* links */
+.dark-mode .bottom-link a {
+    color:#f5e6f0;
+}
+
+.dark-mode .bottom-link a:hover {
+    color:#d7ffcc; 
+}
+
 
 
 
